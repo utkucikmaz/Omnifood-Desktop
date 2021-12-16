@@ -28,6 +28,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+  /* Percentage of user's browser fonz-size setting which equals to 10px */
+  /* When users change their font-size, using percentage has much more advanteges to build a responsive website */
+}
 
 body {
   font-family: sans-serif;
