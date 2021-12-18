@@ -205,6 +205,12 @@ body {
 
 .step-img {
   width: 35%;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.step-img:hover {
+  transform: scale(1.2);
 }
 
 /* Meals Section */
