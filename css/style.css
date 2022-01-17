@@ -5,6 +5,7 @@
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
   /* Percentage of user's browser fonz-size setting which equals to 10px */
   /* When users change their font-size, using percentage has much more advanteges to build a responsive website */
 }
@@ -14,6 +15,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /* Header */
@@ -25,6 +27,7 @@ body {
   background-color: #fdf2e9;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
